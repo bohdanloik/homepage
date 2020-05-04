@@ -150,7 +150,6 @@ a[rel="external"]:not(.label):hover,
 a.language:hover span {
   text-decoration: underline;
 }
-
 /* Prevent `sub` and `sup` elements from affecting the line height in all browsers */
 sub,
 sup {
@@ -165,12 +164,10 @@ sub {
 sup {
   top: -0.5em;
 }
-
 /* Remove the border on images inside links in IE 10 */
 img {
   border-style: none;
 }
-
 /* Change the font styles in all browsers, remove the margin in Firefox and Safari */
 button,
 input {
@@ -179,55 +176,46 @@ input {
   line-height: 1.15;
   margin: 0;
 }
-
 /* Show the overflow in IE and Edge */
 button,
 input {
   overflow: visible;
 }
-
 /* Remove the inheritance of text transform in Edge, Firefox, and IE */
 button {
   text-transform: none;
 }
-
 /* Correct the inability to style clickable types in iOS and Safari	*/
 button,
 [type="button"] {
   -webkit-appearance: button;
   appearance: button;
 }
-
 /* Remove the inner border and padding in Firefox	*/
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
-
 /* Restore the focus styles unset by the previous rule */
 button:-moz-focusring,
 [type="button"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
-
 /* Add the correct box sizing in IE 10, remove the padding in IE 10 */
 [type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
 }
-
 /* Video */
 iframe {
   max-width: 100%;
   border: none;
 }
-
 /* Utiltities */
 .nowrap {
   white-space: nowrap;
 }
-
 /* Article */
 article {
   max-width: 100%;
@@ -255,7 +243,6 @@ article {
     margin-bottom: calc((100% - 1127px) / 2);
   }
 }
-
 /* Page */
 .page {
   position: relative;
@@ -295,7 +282,6 @@ article {
     display: none;
   }
 }
-
 /**
   * # Semantic UI - 2.4.2
   * https://github.com/Semantic-Org/Semantic-UI
@@ -320,7 +306,6 @@ article {
   margin-left: -1em;
   margin-right: -1em;
 }
-
 /* Rows */
 .grid > .row {
   position: relative;
@@ -334,7 +319,6 @@ article {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
 /* Columns */
 /* Standard 16 column */
 .grid > .column:not(.row),
@@ -350,7 +334,6 @@ article {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
 /* Columns */
 /* Vertical padding when no rows */
 .grid > .column:not(.row) {
@@ -361,13 +344,11 @@ article {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 /* Assume full width with one column */
 .grid > .column:only-child,
 .grid > .row > .column:only-child {
   width: 100%;
 }
-
 /* Column Width */
 .grid > .row > [class*="one wide"].column,
 .grid > .column.row > [class*="one wide"].column,
@@ -465,7 +446,6 @@ article {
 .column.grid > [class*="sixteen wide"].column {
   width: 100% !important;
 }
-
 /* Center Aligned */
 [class*="center aligned"].grid > .column,
 [class*="center aligned"].grid > .row > .column,
@@ -474,7 +454,6 @@ article {
 .grid > .row > [class*="center aligned"].column.column {
   text-align: center;
 }
-
 /* Stackable */
 @media only screen and (max-width: 767px) {
   .stackable.grid > .row > .wide.column,
@@ -488,7 +467,6 @@ article {
     padding: 1em !important;
   }
 }
-
 /* Mobile only column */
 [class*="mobile only"].grid,
 .grid > [class*="mobile only"].row,
@@ -504,7 +482,6 @@ article {
     display: block;
   }
 }
-
 /* Avatar */
 .avatar-wrapper {
   padding: 0 1em;
@@ -523,7 +500,6 @@ article {
     padding: 0;
   }
 }
-
 /* Divider */
 .divider {
   border-top: 1px solid rgba(222, 222, 222, 1);
@@ -532,13 +508,11 @@ article {
   border-top: 0.3571428571428571em solid rgba(10, 10, 10, 1);
   width: 33%;
 }
-
 /* Language */
 .language {
   font-weight: 600;
   white-space: nowrap;
 }
-
 /* Labels */
 .labels > .label {
   background-color: #e8e8e8;
@@ -562,12 +536,10 @@ article {
 .labels > .label:not(:last-child) {
   margin-right: 0.5em;
 }
-
 /* Job */
 .job {
   margin-bottom: 0.25rem;
 }
-
 /* Contacts */
 .contacts {
   list-style: none outside none;
@@ -626,7 +598,6 @@ article {
   height: 1.1428rem;
   vertical-align: text-bottom;
 }
-
 @media only screen and (max-width: 767px) {
   .name,
   .job,
@@ -643,7 +614,6 @@ article {
     flex-direction: column;
   }
 }
-
 /* Native <details> element styling */
 details {
   display: block;
@@ -664,7 +634,6 @@ details > div:after {
   clear: both;
   display: block;
 }
-
 /* Alternative to <details> compatible with Safari */
 .details > input {
   -webkit-appearance: none;
@@ -714,7 +683,6 @@ details > div:after {
   clear: both;
   display: block;
 }
-
 /* Details as a standalone block */
 div.details > input:first-child {
   float: left;
@@ -727,7 +695,6 @@ div.details > input:first-child + label {
 div.details > input:first-child + label + .details-body {
   padding-left: 1.5em;
 }
-
 /* Details as a list item */
 li.details {
   list-style-type: none;
@@ -739,14 +706,12 @@ li.details > input {
   float: left;
   margin-left: -1.5em;
 }
-
 /* Highlighted list item */
 li.highlighted {
   padding: 0.5em;
   background: rgba(0, 0, 0, 0.04);
   border-radius: 4px;
 }
-
 /* Bordered list item */
 li.bordered {
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -765,7 +730,6 @@ li.bordered > ul > details > div {
   margin-left: -2em;
   margin-right: -0.5em;
 }
-
 /* Timeline */
 .timeline {
   list-style: none outside none;
@@ -784,7 +748,6 @@ li.bordered > ul > details > div {
 .timeline > li p {
   margin: 0;
 }
-
 /* Tags */
 .tags.small {
   font-size: 0.88em;
@@ -796,7 +759,6 @@ li.bordered > ul > details > div {
   font-size: 1rem;
   margin: 0 0.25em 0 0.25em;
 }
-
 /* Print */
 @media print {
   .page,
@@ -821,7 +783,6 @@ li.bordered > ul > details > div {
     display: none;
   }
 }
-
 /* Color */
 .color {
   cursor: pointer;
@@ -849,7 +810,6 @@ li.bordered > ul > details > div {
 .color.chartreuse:before {
   background-color: chartreuse;
 }
-
 /* Audio button */
 button.audio {
   cursor: pointer;
@@ -864,7 +824,6 @@ button.audio svg {
   width: 16px;
   vertical-align: text-top;
 }
-
 /* Resume */
 #resume {
   color: inherit;
@@ -900,7 +859,6 @@ button.audio svg {
 #resume .dots .dot:not(:last-child) {
   margin-right: 0.2142857em;
 }
-
 /* Dialog */
 dialog {
   display: none;
@@ -937,7 +895,6 @@ dialog:target {
 dialog:target ~ * {
   display: none;
 }
-
 /* Close */
 .close {
   text-indent: -9999px;
@@ -967,7 +924,6 @@ dialog:target ~ * {
 .close:after {
   transform: rotate(-45deg);
 }
-
 /* Credits */
 .credits {
   text-align: right;
@@ -984,7 +940,6 @@ dialog:target ~ * {
     display: none;
   }
 }
-
 /* Hide header, reveal footer */
 header {
   position: fixed;
