@@ -217,6 +217,11 @@ button:-moz-focusring,
   padding: 0;
 }
 
+/* Video */
+iframe {
+  max-width: 100%;
+}
+
 /* Utiltities */
 .nowrap {
   white-space: nowrap;
