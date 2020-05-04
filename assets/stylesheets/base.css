@@ -220,6 +220,7 @@ button:-moz-focusring,
 /* Video */
 iframe {
   max-width: 100%;
+  border: none;
 }
 
 /* Utiltities */
