@@ -1,0 +1,15 @@
+{
+  "name": "default",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stylelint": "npx stylelint '**/*.css'; exit 0"
+  },
+  "author": "",
+  "devDependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {}
+}
